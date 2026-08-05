@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COLOR BEAT</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.75; margin: 0; color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #eaeaea; background: #0d0d12; }
+    a { color: #6cb6ff; }
+    .feat { background: rgba(255,255,255,.06); }
+  }
+  .hero {
+    padding: 72px 20px 56px; text-align: center; color: #fff;
+    background: linear-gradient(135deg, #ff4d8d 0%, #7a40f5 55%, #33d9e0 100%);
+  }
+  .hero h1 { font-size: 2.6rem; margin: 0 0 8px; letter-spacing: 2px; font-weight: 900; }
+  .hero p { margin: 0; opacity: .95; letter-spacing: 4px; font-size: .8rem; font-weight: 700; }
+  main { max-width: 760px; margin: 0 auto; padding: 8px 20px 80px; }
+  h2 { font-size: 1.2rem; margin-top: 2.2em; }
+  .feat { background: rgba(0,0,0,.045); border-radius: 12px; padding: 14px 18px; margin: 12px 0; }
+  .feat h3 { margin: 0 0 4px; font-size: 1rem; }
+  .feat p { margin: 0; }
+  .links { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 1.4em; }
+  .links a {
+    padding: 10px 18px; border-radius: 999px; text-decoration: none;
+    background: #7a40f5; color: #fff; font-weight: 700; font-size: .95rem;
+  }
+  footer { margin-top: 4em; opacity: .6; font-size: .85rem; text-align: center; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>COLOR BEAT</h1>
+  <p>TAP TO THE RHYTHM</p>
+</div>
+
+<main>
+  <p>奥行きのあるレーンを駆け下りてくるノーツを、判定ラインで叩くリズムゲームです。
+  タップ・フリック・ロング・スライド・トレース・クリティカルの 6 種類のノーツと、
+  EASY から MASTER までの 5 段階の難易度を収録しています。</p>
+
+  <h2>特長</h2>
+
+  <div class="feat">
+    <h3>手に馴染む判定</h3>
+    <p>端末ごとの音の遅れをタップで自動計測するキャリブレーション機能つき。
+    ノーツ速度も自由に調整できます。</p>
+  </div>
+
+  <div class="feat">
+    <h3>手持ちの曲で遊べる</h3>
+    <p>曲を選ぶと、その場で譜面が自動生成されます。解析はすべて端末内で完結します。</p>
+  </div>
+
+  <div class="feat">
+    <h3>広告なし・登録不要</h3>
+    <p>アカウント登録も、広告も、トラッキングもありません。データは端末内だけに保存されます。</p>
+  </div>
+
+  <div class="links">
+    <a href="privacy.html">プライバシーポリシー</a>
+    <a href="support.html">サポート / FAQ</a>
+  </div>
+
+  <footer>© 2026 Makino Shii · COLOR BEAT</footer>
+</main>
+</body>
+</html>
